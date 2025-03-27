@@ -15,6 +15,8 @@ id: string = '';
 selectedPokeId: string = '';
 searchPokeName: string = '';
 pokeDetail: PokeDetail = {} as PokeDetail;
+myDate: Date = new Date();
+checked: boolean = true;
 
 pokes : Pokemon[] = [];
 
